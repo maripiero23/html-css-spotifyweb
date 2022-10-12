@@ -39,5 +39,9 @@ body > *,
 
 
 .main-container{
+    flex-grow: 1;
+
+    /*Soluzione con calc ma devo conoscere laltezza della navbar*/
+    /*width: calc(100vw - 100px)*/
 
 }
