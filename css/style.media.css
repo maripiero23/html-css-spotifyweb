@@ -10,9 +10,13 @@
     }
 
 
-    .sidebar .sidebar-list a{ 
+   /* .sidebar .sidebar-list a{ 
         justify-content: flex-start;
     
+    }*/
+
+    .main-logo{
+        justify-content: flex-start;
     }
 
 
@@ -30,10 +34,19 @@
 
     .sidebar .sidebar-list .logo-large{
         display: block;
+        width: 8rem;
+        padding-bottom: 1rem;
     }
 
     .sidebar .sidebar-list .logo-small{
         display: none;
+    }
+
+
+    .line{
+        display: block;
+        border: 1px solid lightgray;
+        margin: .5rem 0;
     }
 
     

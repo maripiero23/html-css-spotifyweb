@@ -39,6 +39,8 @@ body > *,
     display: flex;
     flex-direction: column;
     background-color: black;
+    padding: 0.5rem;
+
 }
 
 .sidebar .top-section{
@@ -48,7 +50,6 @@ body > *,
 
 .sidebar .middle-section{
     flex-grow: 1;
-    overflow: auto;
     
 }
 
@@ -68,11 +69,24 @@ body > *,
     display: none; /*di partenza l'icona grande non si vede, la vedrò in568 in poi*/
 }
 
-.sidebar .sidebar-list a{ /*darò i padding quindi*/
+.sidebar .sidebar-list .logo-small{
+    padding-bottom: 1rem;
+}
+
+.line{
+    display: none;
+    
+}
+.main-logo{
+    display: flex;
+    justify-content: center;
+}
+
+/*.sidebar .sidebar-list a{ /*darò i padding quindi
     display: flex;
     padding: 1rem;
     justify-content: center;
-}
+}*/
 
 .size-icon{
     width: 30px;     
@@ -83,6 +97,11 @@ body > *,
     display: none;
 }
 
+
+
+.size-icon-small{
+    width: 20px;
+}
 
 
 .main-container{
