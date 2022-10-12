@@ -13,7 +13,8 @@ body{
 
 body > *,
 .top-container>*,
-.sidebar>*{
+.sidebar>*,
+.sidebar .sidebar-list a{
     border: 1px dashed red;
 }
 
@@ -56,9 +57,22 @@ body > *,
 
 .sidebar .bottom-section{
     flex-shrink: 0;
-
-    
 }
+
+.sidebar .sidebar-list{
+    list-style: none;
+}
+
+.sidebar .sidebar-list a{ /*darò i padding quindi*/
+    display: flex;
+    padding: 1rem;
+
+}
+
+.sidebar .sidebar-list .list-item-text{
+    display: none;
+}
+
 
 
 .main-container{

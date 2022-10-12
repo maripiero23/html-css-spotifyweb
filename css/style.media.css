@@ -9,10 +9,19 @@
         display: block;
     }
 
+    .sidebar .sidebar-list .list-item-text{
+        display: block;
+    }
+
+
+
 /*MD - medium*/
 @media screen and (min-width:){
 
 }
+
+
+
 
 /*LG - large*/
 @media screen and (min-width:){
