@@ -66,6 +66,7 @@ body > *,
 .sidebar .sidebar-list a{ /*darò i padding quindi*/
     display: flex;
     padding: 1rem;
+    justify-content: center;
 
 }
 

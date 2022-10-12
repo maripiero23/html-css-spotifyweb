@@ -9,10 +9,29 @@
         display: block;
     }
 
+
+    .sidebar .sidebar-list a{ 
+        justify-content: flex-start;
+    
+    }
+
+
+
+    .sidebar .sidebar-list .list-item-icon{
+        margin-right: 1rem;
+    }
+
+
+
     .sidebar .sidebar-list .list-item-text{
         display: block;
     }
 
+
+    
+
+
+   
 
 
 /*MD - medium*/
