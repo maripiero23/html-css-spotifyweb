@@ -49,6 +49,20 @@
         margin: .5rem 0;
     }
 
+    .text-icon{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: .5rem;
+    }
+
+    .text-icon-gray{
+        display: inline-block;
+        color: gray;
+        text-decoration: none;
+        padding: .5rem;
+    }
+
     
 
 

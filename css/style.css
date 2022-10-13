@@ -9,13 +9,14 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    border: 1px solid orange;
 }
 
 body > *,
 .top-container>*,
 .sidebar>*,
 .sidebar .sidebar-list a{
-    border: 1px dashed red;
+    border: 1px dashed blue;
 }
 
 .top-container{
@@ -109,6 +110,7 @@ body > *,
 .main-logo{
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 /*.sidebar .sidebar-list a{ /*darò i padding quindi
@@ -132,13 +134,17 @@ body > *,
     width: 20px;
 }
 
+.text-icon,
+.text-icon-gray{
+    display: none;
+}
 
 .main-container{
-    flex-grow: 1;
+    overflow: auto;
     background-color: rgb(20, 25, 34);
+    flex-grow: 1;
 
     /*Soluzione con calc ma devo conoscere laltezza della navbar*/
-    /*width: calc(100vw - 100px)*/
 
 }
 
@@ -172,4 +178,49 @@ body > *,
     border: 1px solid red;
 
 
+}
+
+/*.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .img-size{
+    width: 100%;
+    display: block;
+}
+
+
+.col-1_2{
+    width: 50%;
+}*/
+
+.font-h2{
+    color: white;
+}
+
+
+
+.middle-section .fa-solid{
+    color: white;
+    font-weight: 900;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+
+.card{
+    border: 1px solid red;
+    margin: 0 10px;
+}
+
+.card-container{
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-size{
+    width: 100px;
 }
