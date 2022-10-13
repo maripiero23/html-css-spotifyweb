@@ -27,11 +27,40 @@ body > *,
     display: flex;
 
 }
-
+/*bottom-navbar*/
 .bottom-navbar{
     flex-shrink: 0;
-    height: 100px; /*un'altra opzione allo shrink, ma tu usa lo shrink*/
+   /* height: 100px;*/ /*un'altra opzione allo shrink, ma tu usa lo shrink*/
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
 }
+
+.bottom-navbar .comand{
+    display: flex;
+    border: 1px solid lightcoral;
+}
+
+
+#songimg-size{
+    width: 30px;
+    paddinnn
+}
+
+.text-comand-song{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+.icon-comand-song{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
 
 .sidebar{
     width: 60px; /*dimensione di partenza della sidebar */
@@ -110,4 +139,14 @@ body > *,
     /*Soluzione con calc ma devo conoscere laltezza della navbar*/
     /*width: calc(100vw - 100px)*/
 
+}
+
+
+
+
+
+
+.main-container .update{
+    display: flex;
+    justify-content: end;
 }
