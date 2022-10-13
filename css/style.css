@@ -61,7 +61,7 @@ body > *,
 }
 
 
-
+/***********************SIDEBAR***********************/
 .sidebar{
     width: 60px; /*dimensione di partenza della sidebar */
     flex-shrink: 0;
@@ -135,6 +135,7 @@ body > *,
 
 .main-container{
     flex-grow: 1;
+    background-color: rgb(20, 25, 34);
 
     /*Soluzione con calc ma devo conoscere laltezza della navbar*/
     /*width: calc(100vw - 100px)*/
@@ -149,4 +150,25 @@ body > *,
 .main-container .update{
     display: flex;
     justify-content: end;
+    background-color: rgb(8, 11, 18);
+}
+
+.consigli{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    color: white;
+    font-size: small;
+}
+ 
+.text-consigli{
+    padding-bottom: 1rem;
+}
+
+
+.main-container .song-plyed-container{
+    border: 1px solid red;
+
+
 }
