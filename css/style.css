@@ -53,7 +53,7 @@ body > *,
 
 
 #songimg-size{
-    width: 30px;
+    width: 50px;
     padding:.5rem;
 }
 
@@ -77,7 +77,15 @@ body > *,
     font-size: small;
 }
 
+.song-icon{
+    display: flex;
+    color: white;
+    font-size: large;
+}
 
+.song-icon .icon-space{
+    padding: 0 1rem;
+}
 /***********************SIDEBAR***********************/
 .sidebar{
     width: 60px; /*dimensione di partenza della sidebar */
